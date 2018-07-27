@@ -1,5 +1,6 @@
 import requests
 import random
+# 代理类
 class ProxyIp():
     def get_ip_ad(self):
         url="http://dynamic.goubanjia.com/dynamic/get/3570e2fa4d368c2a31a2973b056ab9c2.html?sep=3&random=true"

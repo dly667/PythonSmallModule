@@ -1,7 +1,7 @@
 import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-
+# 若快验证码识别类
 class RuoKuai():
     config = {
         'username': 'dly996',

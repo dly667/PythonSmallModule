@@ -13,6 +13,7 @@ from proxy import ProxyIp
 from concurrent.futures import ThreadPoolExecutor
 import os
 import random
+#请求头部文件
 headers = {
     'Host': 'ucp164332.a.stonevote.net',
     "Connection": "keep-alive",
@@ -38,6 +39,7 @@ headers1 = {
     "Referer": "http://ucp164332.a.stonevote.net/poll/f7d9c376-3213-d21f-43fe-d9031225ee39.html",
     
 }
+
 headers2 = {
     'Host': 'ucp164332.a.stonevote.net',
     "Connection": "keep-alive",
@@ -65,14 +67,14 @@ headers3 = {
 
 }
 
-# ip = ProxyIp().get_ip_ad().strip()
+
+#投票类
 class Vote():
-    # print(dovote.text)
-    # 1.获取网页
+    
     # ip = ProxyIp().get_ip_ad().strip()
     def __init__(self,ip):
         self.ip=ip
-    
+    # 1.获取网页
     def step(self):
         
         self.s = requests.Session()
@@ -139,9 +141,11 @@ def task(ip):
         print("链接超时")
         print(e)
     
-
+#开启多进程
 def thread_main():
+    #线程池
     pool=ThreadPoolExecutor(8)
+    #任务数
     task_count=500
     obj_ip=ProxyIp()
     

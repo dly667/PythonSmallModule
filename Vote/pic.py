@@ -7,7 +7,7 @@ from proxy import ProxyIp
 # from PIL import ImageGrab
 # im = ImageGrab.grab()
 # im.save('1112.png')
-
+# 截图类
 class Photo():
     def __init__(self):
         # ip=ProxyIp().get_ip_ad()
