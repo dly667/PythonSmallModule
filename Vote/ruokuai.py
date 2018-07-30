@@ -5,7 +5,7 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 class RuoKuai():
     config = {
         'username': 'dly996',
-        'password': 'Asdf3344',
+        'password': '*******',
         'typeid': '3050',
         'softid': '108574',
         'softkey': 'cf826a0d7f5c40278c4b7724d5ace5c0',
