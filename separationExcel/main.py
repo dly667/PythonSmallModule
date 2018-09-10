@@ -1,16 +1,18 @@
 import xlrd
 import xlwt
+from xlutils.filter import process, XLRDReader, XLWTWriter
 
 class Transform(object):
     def __init__(self):
         pass
     def read(self):
-        workbook = xlrd.open_workbook(u'数据格式表.xlsx')
+        workbook = xlrd.open_workbook(u'数据格式表.xlsx', formatting_info=True, on_demand=True)
         sheet_names = workbook.sheet_names()
+        self.rd = workbook
         self.temp_book = list()
         for sheet_name in sheet_names:
             sheet2 = workbook.sheet_by_name(sheet_name)
-
+            self.rds = sheet2
             print(sheet_name)
             # 获取总行数
             nrows = sheet2.nrows
@@ -73,6 +75,7 @@ class Transform(object):
         # font = xlwt.Font()
         # font.name = 'SimSun'  # 指定“宋体”
         # style.font = font
+
         # 1.表头样式
         style = xlwt.XFStyle()
         font = xlwt.Font()
@@ -84,6 +87,24 @@ class Transform(object):
         al.horz = 0x02  # 设置水平居中
         al.vert = 0x01  # 设置垂直居中
         style.alignment = al
+
+        # 2.数据样式
+        style2 = xlwt.XFStyle()
+        font = xlwt.Font()
+        font.name = '宋体'  # 指定“宋体”
+
+        font.height = 0x00DC
+        style2.font = font
+        al = xlwt.Alignment()
+        al.horz = 0x02  # 设置水平居中
+        al.vert = 0x01  # 设置垂直居中
+        style2.alignment = al
+
+        s = self.copy2(self.rd)
+        styles = s[self.rds.cell_xf_index(2, 2)]
+
+        # rb.release_resources()  # 关闭模板文件
+
         # 创建一个workbook 设置编码
         workbook = xlwt.Workbook(encoding='utf-8')
         for sheet2 in book:
@@ -102,14 +123,14 @@ class Transform(object):
 
 
                 for col_num,col in enumerate(row):
-                    worksheet.write(row_num+2, col_num, col,style)
+                    worksheet.write(row_num+2, col_num, col,styles)
             # 保存
         workbook.save(book_name+'.xls')
 
-
-
-
-
+    def copy2(self,wb):
+        w = XLWTWriter()
+        process(XLRDReader(wb, 'unknown.xls'), w)
+        return w.output[0][1], w.style_list
 
     def main(self):
         self.read()
