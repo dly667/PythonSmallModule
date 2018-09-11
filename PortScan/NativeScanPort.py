@@ -4,27 +4,26 @@ import traceback
 from threading import *
 
 screenLock = Semaphore(value=1)
+
 def connScan(tgtHost, tgtPort):
 
-    try:
-        print('Scanning port' + tgtPort)
-        connSkt = socket(AF_INET, SOCK_STREAM)
-        connSkt.connect((tgtHost, tgtPort))
-        connSkt.send(b'ViolentPython\r\n')
-        results = connSkt.recv(100)
-        screenLock.acquire()
-        print('[+]%d/tcp open'% tgtPort)
-        print('[+] '+ str(results))
+    with socket(AF_INET, SOCK_STREAM) as connSkt:
+        try:
+            connSkt.connect((tgtHost, tgtPort))
+            connSkt.send(b'ViolentPython\r\n')
+            results = connSkt.recv(100)
+            screenLock.acquire()
+            print('Scanning port:%s' % tgtPort)
+            print('[+]%d/tcp open' % tgtPort)
+            print('[+] ' + str(results))
+        except:
+            # print(traceback.print_exc())
+            screenLock.acquire()
+            print('Scanning port:%s' % tgtPort)
+            print('[-]%d/tcp closed' % tgtPort)
 
-    except:
-        # print(traceback.print_exc())
-        screenLock.acquire()
-        print('[-]%d/tcp closed'% tgtPort)
-
-    finally:
-        screenLock.release()
-        connSkt.close()
-
+        finally:
+            screenLock.release()
 def portScan(tgtHost, tgtPorts):
     try:
         tgt_ip = gethostbyname(tgtHost)
