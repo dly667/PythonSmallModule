@@ -14,12 +14,14 @@ class PlaneGame(object):
         self.clock = pygame.time.Clock()
         # 3.调用私有方法，精灵和精灵组的创建
         self.__create_sprites()
+
     def __create_sprites(self):
         # 创建背景精灵和精灵组
         bg1 = Background()
         bg2 = Background(True)
 
         self.back_group = pygame.sprite.Group(bg1,bg2)
+
     def start_game(self):
         # __event_handler()
         print('游戏开始...')
@@ -35,7 +37,6 @@ class PlaneGame(object):
             # 5.更新显示
             pygame.display.update()
 
-
     def __event_handler(self):
         for event in pygame.event.get():
             #判断是否退出游戏
@@ -48,15 +49,18 @@ class PlaneGame(object):
     def __update_sprites(self):
         self.back_group.update()
         self.back_group.draw(self.screen)
+
     @staticmethod
     def __game_over():
         print('游戏结束')
         pygame.quit()
         exit()
         pass
+
+
 if __name__ == '__main__':
 
     # 创建游戏对象
     game = PlaneGame()
-    #启动游戏
+    # 启动游戏
     game.start_game()
