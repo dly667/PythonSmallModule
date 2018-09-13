@@ -9,6 +9,8 @@ FRAME_PER_SEC = 60
 CREATE_ENEMY_EVENT = pygame.USEREVENT
 
 class GameSprite(pygame.sprite.Sprite):
+
+
     """飞机大战游戏精灵"""
 
     def __init__(self,image_name,speed=1):
@@ -46,7 +48,9 @@ class Background(GameSprite):
         if self.rect.y>=SCREEN_RECT.height:
             self.rect.y=-SCREEN_RECT.height
 
+
 class Enemy(GameSprite):
+
 
     """敌机精灵"""
 
@@ -69,3 +73,10 @@ class Enemy(GameSprite):
             self.kill()
     def __del__(self):
         print("敌机挂了,%s"%self.rect)
+
+
+class Hero(GameSprite):
+    """英雄精灵"""
+
+    def __init__(self):
+        # 1.
