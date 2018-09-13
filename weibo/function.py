@@ -6,7 +6,8 @@ def deal_time(strdata):
     index1 = strdata.find('小时前', 0, len(strdata))
     index2 = strdata.find('分钟前', 0, len(strdata))
     index3 = strdata.find('昨天', 0, len(strdata))
-    index4 = strdata.find('20',0,2)
+    index4 = strdata.find('刚刚', 0, len(strdata))
+    index5 = strdata.find('20',0,2)
     cur_month = i.strftime("%m")
     cur_month = str(i.year)+'-'+cur_month
    
@@ -25,8 +26,13 @@ def deal_time(strdata):
     elif index3!=-1:
         t = i.day-1
         return str(cur_month)+'-'+str(t)
+    elif index4!=-1:
+
+
+        t = i.day
+        return str(cur_month) + '-' + str(t)
     else :
-        if index4==-1 :
+        if index5==-1 :
             strdata = str(i.year) +'-'+strdata
         return strdata
 
@@ -77,4 +83,4 @@ def separate_excel():
             session.add(ed_user)
         session.commit()    
         print(i)
-separate_excel()
+# separate_excel()

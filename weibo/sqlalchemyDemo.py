@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
 # 连接数据库，如果不存在则创建
-engine = create_engine('sqlite:///H:/python/weibo/data.sqlite')
+engine = create_engine('sqlite:///H:/python/PythonSmallModule/weibo/data.sqlite')
 Session = sessionmaker(bind=engine)
 
 session = Session()
@@ -23,6 +23,7 @@ class Data(Base):
     followers_count = Column(Integer)
     follow_count = Column(Integer)
     forward_sum_count = Column(Integer)
+    unix_time = Column(Integer)
     def __repr__(self):
         return "<Data(id='%s', account_id='%s', account_name='%s')>" % (
                                 self.id, self.account_id, self.account_name)
