@@ -27,6 +27,10 @@ class PlaneGame(object):
         # 创建敌机的精灵组
         self.enemy_group = pygame.sprite.Group()
 
+        # 创建英雄的精灵和精灵组
+        self.hero = Hero()
+        self.hero_group = pygame.sprite.Group(self.hero)
+
     def start_game(self):
         # __event_handler()
         print('游戏开始...')
@@ -52,7 +56,11 @@ class PlaneGame(object):
                 enemy = Enemy()
                 # 将敌机精灵添加到敌机精灵组
                 self.enemy_group.add(enemy)
-
+        # 使用键盘提供的方法获取键盘按键
+        keys_pressed = pygame.key.get_pressed()
+        # 判断元组中对应的按键索引值
+        if keys_pressed[pygame.K_RIGHT]:
+            print("向右移动")
     def __check_collide(self):
         pass
 
@@ -62,6 +70,9 @@ class PlaneGame(object):
 
         self.enemy_group.update()
         self.enemy_group.draw(self.screen)
+
+        self.hero_group.update()
+        self.hero_group.draw(self.screen)
 
     @staticmethod
     def __game_over():

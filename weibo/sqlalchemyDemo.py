@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
 # 连接数据库，如果不存在则创建
-engine = create_engine('sqlite:///H:/python/PythonSmallModule/weibo/data.sqlite')
+engine = create_engine('sqlite:///G:/python/PythonSmallModule/weibo/data.sqlite')
 Session = sessionmaker(bind=engine)
 
 session = Session()
