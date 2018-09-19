@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlaneGame/plane_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneGame/plane_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlaneGame/plane_sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneGame/plane_sprites.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weibo/sqlalchemyDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/weibo/sqlalchemyDemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,144 +19,91 @@
     <SUITE FILE_PATH="coverage/PythonSmallModule$test.coverage" NAME="test Coverage Results" MODIFIED="1535718812417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
     <SUITE FILE_PATH="coverage/PythonSmallModule$main.coverage" NAME="main Coverage Results" MODIFIED="1535716354887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
     <SUITE FILE_PATH="coverage/PythonSmallModule$index.coverage" NAME="index Coverage Results" MODIFIED="1535739254008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
-    <SUITE FILE_PATH="coverage/PythonSmallModule$SplitDataIntoExcel.coverage" NAME="SplitDataIntoExcel Coverage Results" MODIFIED="1537067386873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weibo" />
+    <SUITE FILE_PATH="coverage/PythonSmallModule$SplitDataIntoExcel.coverage" NAME="SplitDataIntoExcel Coverage Results" MODIFIED="1537359951085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weibo" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="409301535">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="1" />
-          <entry key="py" value="20" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="6760" />
+          <entry key="py" value="7748" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6760" />
+          <entry key="Python" value="7748" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+              <folding>
+                <marker date="1537360452540" expanded="true" signature="86:91" ph="..." />
+                <marker date="1537360452540" expanded="true" signature="1995:2004" ph="..." />
+                <marker date="1537360452540" expanded="true" signature="1995:2356" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+            <state relative-caret-position="467">
+              <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1536842957832" expanded="true" signature="207:212" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="497:498" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="586:591" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="642:652" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="642:813" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="1036:1041" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="1705:1710" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="1745:1754" ph="..." />
-                <marker date="1536842957832" expanded="true" signature="1970:1980" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weibo/SplitDataIntoExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1537102788022" expanded="true" signature="1915:1933" ph="..." />
-                <marker date="1537102788022" expanded="true" signature="1928:1929" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weibo/sqlalchemyDemo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weibo/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/separationExcel/new_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/separationExcel/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="134" selection-start-line="134" selection-end-line="140" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#174#1346#0" />
-                <element signature="e#1382#1386#0" />
-                <element signature="e#1431#1508#0" />
-                <element signature="e#1621#2445#0" />
-                <element signature="e#2492#4104#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-              <folding>
-                <marker date="1536842597721" expanded="true" signature="86:91" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="256:261" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="546:547" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="635:640" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="691:701" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="691:862" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="1085:1090" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="1754:1759" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="1794:1803" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2085:2095" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2379:2392" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2655:2656" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2655:2676" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2695:2704" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2695:2784" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2801:2810" ph="..." />
+                <marker date="1537278675294" expanded="true" signature="2801:2939" ph="..." />
               </folding>
             </state>
           </provider>
@@ -195,10 +140,10 @@
         <option value="$PROJECT_DIR$/separationExcel/index.py" />
         <option value="$PROJECT_DIR$/separationExcel/excel_main.py" />
         <option value="$PROJECT_DIR$/PlaneGame/plane_game.py" />
-        <option value="$PROJECT_DIR$/PlaneGame/plane_main.py" />
-        <option value="$PROJECT_DIR$/PlaneGame/plane_sprites.py" />
         <option value="$PROJECT_DIR$/weibo/sqlalchemyDemo.py" />
         <option value="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" />
+        <option value="$PROJECT_DIR$/PlaneGame/plane_sprites.py" />
+        <option value="$PROJECT_DIR$/PlaneGame/plane_main.py" />
       </list>
     </option>
   </component>
@@ -208,9 +153,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="320" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="985" />
+    <option name="y" value="2" />
     <option name="width" value="1008" />
     <option name="height" value="991" />
   </component>
@@ -219,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,13 +175,17 @@
             <path>
               <item name="PythonSmallModule" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonSmallModule" type="462c0819:PsiDirectoryNode" />
+              <item name="PlaneGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonSmallModule" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonSmallModule" type="462c0819:PsiDirectoryNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,14 +354,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="985" y="2" width="1008" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12633263" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2521097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22584148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2254673" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +371,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3283237" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37785017" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2978972" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3283237" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -498,48 +449,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
+    <entry file="file://$PROJECT_DIR$/weibo/sqlalchemyDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1536842957832" expanded="true" signature="207:212" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="497:498" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="586:591" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="642:652" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="642:813" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="1036:1041" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="1705:1710" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="1745:1754" ph="..." />
-            <marker date="1536842957832" expanded="true" signature="1970:1980" ph="..." />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="25" column="31" selection-start-line="13" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
+    <entry file="file://$PROJECT_DIR$/weibo/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <marker date="1536842597721" expanded="true" signature="86:91" ph="..." />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/new_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1344">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="462">
           <caret line="134" selection-start-line="134" selection-end-line="140" selection-end-column="22" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -552,31 +485,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/sqlalchemyDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weibo/SplitDataIntoExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1537102788022" expanded="true" signature="1915:1933" ph="..." />
-            <marker date="1537102788022" expanded="true" signature="1928:1929" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1537278675294" expanded="true" signature="256:261" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="546:547" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="635:640" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="691:701" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="691:862" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="1085:1090" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="1754:1759" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="1794:1803" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2085:2095" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2379:2392" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2655:2656" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2655:2676" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2695:2704" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2695:2784" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2801:2810" ph="..." />
+            <marker date="1537278675294" expanded="true" signature="2801:2939" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding>
+            <marker date="1537360452540" expanded="true" signature="86:91" ph="..." />
+            <marker date="1537360452540" expanded="true" signature="1995:2004" ph="..." />
+            <marker date="1537360452540" expanded="true" signature="1995:2356" ph="..." />
           </folding>
         </state>
       </provider>
