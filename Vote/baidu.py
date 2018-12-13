@@ -25,4 +25,3 @@ options["probability"] = "true"
 
 """ 带参数调用通用文字识别（高精度版） """
 aa = client.basicAccurate(image, options)
-print(aa)

@@ -2,25 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82372d39-ef5c-4052-85aa-a6cf4119e694" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlaneGame/plane_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneGame/plane_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlaneGame/plane_sprites.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlaneGame/plane_sprites.py" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vote/moguproxy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/again.png" afterPath="$PROJECT_DIR$/PlaneGame/images/again.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/background.png" afterPath="$PROJECT_DIR$/PlaneGame/images/background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/bomb.png" afterPath="$PROJECT_DIR$/PlaneGame/images/bomb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/bomb_supply.png" afterPath="$PROJECT_DIR$/PlaneGame/images/bomb_supply.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/bullet1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/bullet1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/bullet2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/bullet2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/bullet_supply.png" afterPath="$PROJECT_DIR$/PlaneGame/images/bullet_supply.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy1_down1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy1_down1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy1_down2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy1_down2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy1_down3.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy1_down3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy1_down4.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy1_down4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy2_down1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy2_down1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy2_down2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy2_down2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy2_down3.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy2_down3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy2_down4.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy2_down4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy2_hit.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy2_hit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_down1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_down1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_down2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_down2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_down3.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_down3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_down4.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_down4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_down5.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_down5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_down6.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_down6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_hit.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_hit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_n1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_n1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/enemy3_n2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/enemy3_n2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/gameover.png" afterPath="$PROJECT_DIR$/PlaneGame/images/gameover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/life.png" afterPath="$PROJECT_DIR$/PlaneGame/images/life.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/me1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/me1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/me2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/me2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/me_destroy_1.png" afterPath="$PROJECT_DIR$/PlaneGame/images/me_destroy_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/me_destroy_2.png" afterPath="$PROJECT_DIR$/PlaneGame/images/me_destroy_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/me_destroy_3.png" afterPath="$PROJECT_DIR$/PlaneGame/images/me_destroy_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/me_destroy_4.png" afterPath="$PROJECT_DIR$/PlaneGame/images/me_destroy_4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/pause_nor.png" afterPath="$PROJECT_DIR$/PlaneGame/images/pause_nor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/pause_pressed.png" afterPath="$PROJECT_DIR$/PlaneGame/images/pause_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/resume_nor.png" afterPath="$PROJECT_DIR$/PlaneGame/images/resume_nor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/images/resume_pressed.png" afterPath="$PROJECT_DIR$/PlaneGame/images/resume_pressed.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/Excel_test.xls" afterPath="$PROJECT_DIR$/separationExcel/Excel_test.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/haha.xls" afterPath="$PROJECT_DIR$/separationExcel/haha.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/~$数据格式表.xlsx" afterPath="$PROJECT_DIR$/separationExcel/~$数据格式表.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/张三.xlsx" afterPath="$PROJECT_DIR$/separationExcel/张三.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/数据格式表 - 副本.xlsx" afterPath="$PROJECT_DIR$/separationExcel/数据格式表 - 副本.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/数据格式表.xls" afterPath="$PROJECT_DIR$/separationExcel/数据格式表.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/数据格式表.xlsx" afterPath="$PROJECT_DIR$/separationExcel/数据格式表.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/李四.xlsx" afterPath="$PROJECT_DIR$/separationExcel/李四.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/王五.xlsx" afterPath="$PROJECT_DIR$/separationExcel/王五.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/赵六.xlsx" afterPath="$PROJECT_DIR$/separationExcel/赵六.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/data.sqlite" afterPath="$PROJECT_DIR$/weibo/data.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/新建文件夹/weibo.7z" afterPath="$PROJECT_DIR$/weibo/新建文件夹/weibo.7z" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/新建文件夹/weibo/data.sqlite" afterPath="$PROJECT_DIR$/weibo/新建文件夹/weibo/data.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonSmallModule.iml" afterPath="$PROJECT_DIR$/.idea/PythonSmallModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vscode/settings.json" afterPath="$PROJECT_DIR$/.vscode/settings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/.idea/PlaneGame.iml" afterPath="$PROJECT_DIR$/PlaneGame/.idea/PlaneGame.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/.idea/misc.xml" afterPath="$PROJECT_DIR$/PlaneGame/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/.idea/modules.xml" afterPath="$PROJECT_DIR$/PlaneGame/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/.idea/vcs.xml" afterPath="$PROJECT_DIR$/PlaneGame/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PlaneGame/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/plane_main.py" afterPath="$PROJECT_DIR$/PlaneGame/plane_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PlaneGame/plane_sprites.py" afterPath="$PROJECT_DIR$/PlaneGame/plane_sprites.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/.idea/PortScan.iml" afterPath="$PROJECT_DIR$/PortScan/.idea/PortScan.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/.idea/misc.xml" afterPath="$PROJECT_DIR$/PortScan/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/.idea/modules.xml" afterPath="$PROJECT_DIR$/PortScan/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/.idea/vcs.xml" afterPath="$PROJECT_DIR$/PortScan/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PortScan/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/NativeScanPort.py" afterPath="$PROJECT_DIR$/PortScan/NativeScanPort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PortScan/NmapPython.py" afterPath="$PROJECT_DIR$/PortScan/NmapPython.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/README.md" afterPath="$PROJECT_DIR$/Vote/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/baidu.py" afterPath="$PROJECT_DIR$/Vote/baidu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/chrome.py" afterPath="$PROJECT_DIR$/Vote/chrome.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/ghostdriver.log" afterPath="$PROJECT_DIR$/Vote/ghostdriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/index.py" afterPath="$PROJECT_DIR$/Vote/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/os_thread.py" afterPath="$PROJECT_DIR$/Vote/os_thread.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/pic.py" afterPath="$PROJECT_DIR$/Vote/pic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/proxy.py" afterPath="$PROJECT_DIR$/Vote/proxy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vote/ruokuai.py" afterPath="$PROJECT_DIR$/Vote/ruokuai.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/.idea/misc.xml" afterPath="$PROJECT_DIR$/separationExcel/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/.idea/modules.xml" afterPath="$PROJECT_DIR$/separationExcel/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/.idea/separationExcel.iml" afterPath="$PROJECT_DIR$/separationExcel/.idea/separationExcel.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/.idea/workspace.xml" afterPath="$PROJECT_DIR$/separationExcel/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/excel_main.py" afterPath="$PROJECT_DIR$/separationExcel/excel_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/index.py" afterPath="$PROJECT_DIR$/separationExcel/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/main.py" afterPath="$PROJECT_DIR$/separationExcel/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/new.py" afterPath="$PROJECT_DIR$/separationExcel/new.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/new_main.py" afterPath="$PROJECT_DIR$/separationExcel/new_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/test.py" afterPath="$PROJECT_DIR$/separationExcel/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/separationExcel/test1.py" afterPath="$PROJECT_DIR$/separationExcel/test1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/weibo/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/weibo/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/misc.xml" afterPath="$PROJECT_DIR$/weibo/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/modules.xml" afterPath="$PROJECT_DIR$/weibo/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/weibo/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/weibo.iml" afterPath="$PROJECT_DIR$/weibo/.idea/weibo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/weibo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" afterPath="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/function.py" afterPath="$PROJECT_DIR$/weibo/function.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/sqlalchemyDemo.py" afterPath="$PROJECT_DIR$/weibo/sqlalchemyDemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/test.py" afterPath="$PROJECT_DIR$/weibo/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/新建文件夹/weibo/function.py" afterPath="$PROJECT_DIR$/weibo/新建文件夹/weibo/function.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/新建文件夹/weibo/sqlalchemyDemo.py" afterPath="$PROJECT_DIR$/weibo/新建文件夹/weibo/sqlalchemyDemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/新建文件夹/weibo/test.py" afterPath="$PROJECT_DIR$/weibo/新建文件夹/weibo/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonSmallModule$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1535734084064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
-    <SUITE FILE_PATH="coverage/PythonSmallModule$plane_game.coverage" NAME="plane_game Coverage Results" MODIFIED="1537067380090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PlaneGame" />
-    <SUITE FILE_PATH="coverage/PythonSmallModule$excel_main.coverage" NAME="excel_main Coverage Results" MODIFIED="1535786225124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
+    <SUITE FILE_PATH="coverage/PythonSmallModule$SplitDataIntoExcel.coverage" NAME="SplitDataIntoExcel Coverage Results" MODIFIED="1537359951085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weibo" />
     <SUITE FILE_PATH="coverage/PythonSmallModule$test.coverage" NAME="test Coverage Results" MODIFIED="1535718812417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
     <SUITE FILE_PATH="coverage/PythonSmallModule$main.coverage" NAME="main Coverage Results" MODIFIED="1535716354887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
+    <SUITE FILE_PATH="coverage/PythonSmallModule$plane_game.coverage" NAME="plane_game Coverage Results" MODIFIED="1537067380090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PlaneGame" />
+    <SUITE FILE_PATH="coverage/PythonSmallModule$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1535734084064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
     <SUITE FILE_PATH="coverage/PythonSmallModule$index.coverage" NAME="index Coverage Results" MODIFIED="1535739254008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
-    <SUITE FILE_PATH="coverage/PythonSmallModule$SplitDataIntoExcel.coverage" NAME="SplitDataIntoExcel Coverage Results" MODIFIED="1537359951085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weibo" />
+    <SUITE FILE_PATH="coverage/PythonSmallModule$excel_main.coverage" NAME="excel_main Coverage Results" MODIFIED="1535786225124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/separationExcel" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FUSProjectUsageTrigger">
     <session id="409301535">
       <usages-collector id="statistics.lifecycle.project">
@@ -65,46 +183,113 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PythonSmallModule" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="plane_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+            <state relative-caret-position="594">
+              <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Vote/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
               <folding>
-                <marker date="1537360452540" expanded="true" signature="86:91" ph="..." />
-                <marker date="1537360452540" expanded="true" signature="1995:2004" ph="..." />
-                <marker date="1537360452540" expanded="true" signature="1995:2356" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1544687405000" expanded="true" signature="5957:6082" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
+      <file leaf-file-name="chrome.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baidu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/baidu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ruokuai.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/ruokuai.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1537278675294" expanded="true" signature="256:261" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="546:547" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="635:640" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="691:701" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="691:862" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="1085:1090" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="1754:1759" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="1794:1803" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2085:2095" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2379:2392" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2655:2656" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2655:2676" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2695:2704" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2695:2784" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2801:2810" ph="..." />
-                <marker date="1537278675294" expanded="true" signature="2801:2939" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1532161581000" expanded="true" signature="99:1323" ph="..." />
+                <marker date="1532161581000" expanded="true" signature="114:290" ph="..." />
+                <marker date="1532161581000" expanded="true" signature="343:590" ph="'''...'''" />
+                <marker date="1532161581000" expanded="true" signature="596:797" ph="'''...'''" />
+                <marker date="1532161581000" expanded="true" signature="813:890" ph="..." />
+                <marker date="1532161581000" expanded="true" signature="931:1154" ph="..." />
+                <marker date="1532161581000" expanded="true" signature="1185:1323" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/proxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/pic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="os_thread.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/os_thread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moguproxy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vote/moguproxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,6 +329,9 @@
         <option value="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" />
         <option value="$PROJECT_DIR$/PlaneGame/plane_sprites.py" />
         <option value="$PROJECT_DIR$/PlaneGame/plane_main.py" />
+        <option value="$PROJECT_DIR$/Vote/moguproxy.py" />
+        <option value="$PROJECT_DIR$/Vote/ruokuai.py" />
+        <option value="$PROJECT_DIR$/Vote/index.py" />
       </list>
     </option>
   </component>
@@ -154,38 +342,70 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="985" />
-    <option name="y" value="2" />
-    <option name="width" value="1008" />
-    <option name="height" value="991" />
+    <option name="width" value="1920" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="PythonSmallModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonSmallModule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonSmallModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonSmallModule" type="462c0819:PsiDirectoryNode" />
-              <item name="PlaneGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonSmallModule" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonSmallModule" type="462c0819:PsiDirectoryNode" />
-              <item name="weibo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonSmallModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonSmallModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonSmallModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonSmallModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +413,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -212,9 +432,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SplitDataIntoExcel">
-    <configuration name="SplitDataIntoExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonSmallModule" />
+  <component name="RunManager">
+    <configuration default="false" name="SplitDataIntoExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -225,18 +444,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weibo/SplitDataIntoExcel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <configuration name="excel_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonSmallModule" />
+    <configuration default="false" name="excel_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -247,18 +463,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/separationExcel/excel_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonSmallModule" />
+    <configuration default="false" name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -269,18 +482,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/separationExcel/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <configuration name="plane_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonSmallModule" />
+    <configuration default="false" name="plane_game" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -291,18 +501,15 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PlaneGame/plane_game.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonSmallModule" />
+    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -313,32 +520,181 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/separationExcel/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method />
     </configuration>
-    <list>
-      <item itemvalue="Python.test1" />
-      <item itemvalue="Python.index" />
-      <item itemvalue="Python.excel_main" />
-      <item itemvalue="Python.plane_game" />
-      <item itemvalue="Python.SplitDataIntoExcel" />
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="PythonSmallModule" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonSmallModule" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.SplitDataIntoExcel" />
+      <item index="1" class="java.lang.String" itemvalue="Python.excel_main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.index" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plane_game" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test1" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.SplitDataIntoExcel" />
-        <item itemvalue="Python.plane_game" />
-        <item itemvalue="Python.excel_main" />
-        <item itemvalue="Python.index" />
-        <item itemvalue="Python.test1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.plane_game" />
+        <item index="2" class="java.lang.String" itemvalue="Python.index" />
+        <item index="3" class="java.lang.String" itemvalue="Python.excel_main" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SplitDataIntoExcel" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -353,35 +709,42 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="985" y="2" width="1008" height="991" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1030" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2521097" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2254673" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3283237" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2978972" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3283237" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11057692" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26209223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -395,92 +758,196 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/ruokuai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1532161581000" expanded="true" signature="99:1323" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="114:290" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="343:590" ph="'''...'''" />
+            <marker date="1532161581000" expanded="true" signature="596:797" ph="'''...'''" />
+            <marker date="1532161581000" expanded="true" signature="813:890" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="931:1154" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="1185:1323" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/os_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/moguproxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="114" column="52" lean-forward="true" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1544687405000" expanded="true" signature="5957:6082" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1720">
-          <caret line="86" column="104" selection-start-line="86" selection-start-column="104" selection-end-line="86" selection-end-column="104" />
+          <caret line="86" column="104" lean-forward="false" selection-start-line="86" selection-start-column="104" selection-end-line="86" selection-end-column="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
-          <caret line="57" column="74" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="74" />
+          <caret line="57" column="74" lean-forward="false" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/xlwt/Style.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/python3/Lib/site-packages/xlwt/Style.py" />
     <entry file="file://$PROJECT_DIR$/separationExcel/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="29" />
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/excel_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
-          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+          <caret line="108" column="33" lean-forward="false" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlaneGame/images/me1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaneGame/plane_game.py" />
     <entry file="file://$PROJECT_DIR$/weibo/sqlalchemyDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="25" column="31" selection-start-line="13" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
+          <caret line="25" column="31" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weibo/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/new_main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
-          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+          <caret line="68" column="33" lean-forward="false" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/separationExcel/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="134" selection-start-line="134" selection-end-line="140" selection-end-column="22" />
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="140" selection-end-column="22" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#174#1346#0" />
-            <element signature="e#1382#1386#0" />
-            <element signature="e#1431#1508#0" />
-            <element signature="e#1621#2445#0" />
-            <element signature="e#2492#4104#0" />
+            <element signature="e#174#1346#0" expanded="false" />
+            <element signature="e#1382#1386#0" expanded="false" />
+            <element signature="e#1431#1508#0" expanded="false" />
+            <element signature="e#1621#2445#0" expanded="false" />
+            <element signature="e#2492#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -488,47 +955,119 @@
     <entry file="file://$PROJECT_DIR$/weibo/SplitDataIntoExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+          <caret line="41" column="67" lean-forward="false" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlaneGame/plane_sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1537278675294" expanded="true" signature="256:261" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="546:547" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="635:640" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="691:701" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="691:862" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="1085:1090" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="1754:1759" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="1794:1803" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2085:2095" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2379:2392" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2655:2656" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2655:2676" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2695:2704" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2695:2784" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2801:2810" ph="..." />
-            <marker date="1537278675294" expanded="true" signature="2801:2939" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PlaneGame/plane_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+        <state relative-caret-position="594">
+          <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding>
-            <marker date="1537360452540" expanded="true" signature="86:91" ph="..." />
-            <marker date="1537360452540" expanded="true" signature="1995:2004" ph="..." />
-            <marker date="1537360452540" expanded="true" signature="1995:2356" ph="..." />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/os_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/moguproxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/ruokuai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1532161581000" expanded="true" signature="99:1323" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="114:290" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="343:590" ph="'''...'''" />
+            <marker date="1532161581000" expanded="true" signature="596:797" ph="'''...'''" />
+            <marker date="1532161581000" expanded="true" signature="813:890" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="931:1154" ph="..." />
+            <marker date="1532161581000" expanded="true" signature="1185:1323" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vote/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="116" column="20" lean-forward="false" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1544687405000" expanded="true" signature="5957:6082" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
