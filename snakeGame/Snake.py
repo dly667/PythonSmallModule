@@ -32,7 +32,7 @@ screen = pygame.display.set_mode((screenwidth, screenheight))
 
 
 
-pygame.display.set_caption("SnakebyDan")
+pygame.display.set_caption("Snake")
 pygame.display.update()
 clock = pygame.time.Clock()
 # font = pygame.font.SysFont("simhei", 40)
@@ -44,8 +44,8 @@ def text_screen(text, color, x, y):
 
 
 
-pygame.mixer.music.load("snek.wav")
-pygame.mixer.music.play(-1)
+# pygame.mixer.music.load("snek.wav")
+# pygame.mixer.music.play(-1)
 
 def plot_snake(screen, color, snke_list, snake_size):
     for x,y in snke_list:
@@ -179,13 +179,13 @@ def gameloop():
 
             if head in snke_list[:-1]:
                 gameover = True
-                pygame.mixer.music.load("Gameover.mp3")
+                # pygame.mixer.music.load("Gameover.mp3")
                 pygame.mixer.music.play()
 
 
             if snake_x<0 or snake_x>screenwidth or snake_y<0 or snake_y>screenheight:
                 gameover = True
-                pygame.mixer.music.load("Gameover.mp3")
+                # pygame.mixer.music.load("Gameover.mp3")
                 pygame.mixer.music.play()
 
             plot_snake(screen, black, snke_list, snake_size)
