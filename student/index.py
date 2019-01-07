@@ -37,9 +37,14 @@ class Student:
             file_content =f.read().split('\n')
 
             student_list = file_content[1:]
+            
+
             final_dic = {}
             for item in student_list:
+                if item == "":
+                    break
                 final_dic[item.split()[0]] = item.split()[3]
+               
         return final_dic
     def draw(self):
         data = Student().getSourceData()
@@ -55,7 +60,7 @@ class Student:
         y_pos = np.arange(len(people))
         # performance = 3 + 10 * np.random.rand(len(people))
 
-        performance = list(data.values())
+        performance = list(map(int, data.values()))
         error = np.random.rand(len(people))
 
         ax.barh(y_pos, performance, xerr=error, align='center',
